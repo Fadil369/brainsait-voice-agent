@@ -14,13 +14,5 @@ binding = "AI_SEARCH"
 namespace = "default"
 remote = true
 
-[[durable_objects.bindings]]
-name = "VoiceAgent"
-class_name = "VoiceAgent"
-
-[[migrations]]
-tag = "v1"
-new_sqlite_classes = ["VoiceAgent"]
-
 [observability]
 enabled = true
